@@ -7,10 +7,24 @@ body {
     width: 150px;
     height: 150px;
     background: #009b22;
-    transition: all ease 0.6s;
+    transition: all ease 0.2s;
+    margin: 0 auto;
 }
 
 .box.opening {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
+}
+
+.box h1 {
+    font-size: 40px;
+    color: #fff;
+    line-height: 50px;
+    transform: translateX(-1000px);
+    padding: 30px;
+    transition: all ease 0.2s;
+}
+
+.box.open h1 {
+    transform: translateX(0px);
 }

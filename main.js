@@ -87,5 +87,15 @@ console.log(classRoom.sort());
 
 const box = document.querySelector('.box');
 box.addEventListener('click', function () {
-    this.classList.toggle('opening');
+    let first = 'opening';
+    let second = 'open';
+
+    if (this.classList.contains(first)) {
+        [first, second] = [second, first];
+    }
+    this.classList.toggle(first);
+
+    setTimeout(() => {
+        this.classList.toggle(second);
+    }, 500);
 });
