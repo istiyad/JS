@@ -1,0 +1,16 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background: #009b22;
+    transition: all ease 0.6s;
+}
+
+.box.opening {
+    width: 400px;
+    height: 400px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="icon" href="/assets/js.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JavaScript Project</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <p id="demo">Hello world</p>
+        <button
+            type="button"
+            onclick="document.getElementById('demo') .style.fontSize='35px'"
+        >
+            Click me
+        </button>
+        <button
+            class="btn"
+            type="button"
+            onclick="document.getElementById('demo') .style.fontSize='16px'"
+        >
+            Click me
+        </button>
+
+        <p id="fahrenheit"></p>
+
+        <p id="time"></p>
+        <button onclick="displayDate()">Whats Time Now</button>
+
+        <p id="Date"></p>
+        <button type="button" onclick=" this.innerHTML = Date()">
+            What's Time Now
+        </button>
+
+        <p id="sort-array"></p>
+
+        <p id="find-name"></p>
+
+        <p id="find-leap-year"></p>
+
+        <div class="box"></div>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
