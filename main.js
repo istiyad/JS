@@ -19,8 +19,7 @@ document.getElementById('fahrenheit').innerHTML = value;
 //<-- OBJECT-->//
 
 const car = {
-    name1: 'fiat',
-    model: 500,
+    // name1: 'fiat'
     weight: '850kg',
     color: 'white',
     start: function () {
@@ -99,3 +98,15 @@ box.addEventListener('click', function () {
         this.classList.toggle(second);
     }, 500);
 });
+
+// MORE OF ARROW FUNCTION
+
+// simpal function
+// function numbar() {
+//     return 5;
+// }
+
+// arrow function
+const numbar = (n, a) => n - a;
+
+document.querySelector('.num').innerHTML = numbar(10, 40);
